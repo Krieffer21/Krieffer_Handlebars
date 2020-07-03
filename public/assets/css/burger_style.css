@@ -40,3 +40,9 @@ li {
     margin-top: 40px;
 
   }
+
+  .add {
+    margin: 5px;
+    padding: 5px;
+    align-self: center;
+  }
