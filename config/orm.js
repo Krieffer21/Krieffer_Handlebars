@@ -37,6 +37,12 @@ const orm = {
     },
 
     create: function(table, cols, val, cb) {
+      if (val[1] === "false") {
+        val[1] = false;
+      } else {
+        val[1] = true;
+      }
+      
         let queryString = "INSERT INTO " + table;
         queryString += " (";
         queryString += cols.toString();
@@ -45,7 +51,7 @@ const orm = {
         queryString += printQuestionMarks(val.length);
         queryString += ") ";
     
-        console.log(queryString);
+        console.log(val);
 
         connection.query(queryString, val, function(err, result) {
           if (err) {
