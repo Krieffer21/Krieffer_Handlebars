@@ -1,4 +1,3 @@
-// Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function() {
     $(".change-devoured").on("click", function(event) {
       const id = $(this).data("id");
@@ -8,7 +7,6 @@ $(function() {
         devoured: newburger
       };
   
-      // Send the PUT request.
       $.ajax("/api/burgers/" + id, {
         type: "PUT",
         data: newburgertype
