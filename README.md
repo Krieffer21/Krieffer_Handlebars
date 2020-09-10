@@ -1,7 +1,7 @@
 # Krieffer_Handlebars
 
 ## Node Express Handlebars
-  This assignment was to design an 'Eat Da Burger' application that allows the user to enter a burger name and can click a button to 'Devour it!'. The burger logger was built with MySQL, Node, Express, Handlebars and a homemade ORM.
+  This assignment was to design an 'Eat Da Burger' application that allows the user to enter a burger name and can click a button to 'Devour it!'. The burger logger was built with MySQL, Node, Express, Handlebars and a homemade ORM. 
 
 ### ORM Create
   The screenshot below shows the create function in the homemade orm. When 'creating', or adding a burger, this function will add the burger name and its value to the burger table, in the burgers database. The 'if statment' checks the burgers boolean value, for whether it has been devoured or not. 
