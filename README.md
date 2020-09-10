@@ -13,7 +13,7 @@
 
 ![](https://github.com/Krieffer21/Krieffer_Handlebars/blob/master/public/assets/screenshots/PUT.png)
 
-### Handlebars
+### Handlebars  
   The screenshot below is from the index.handlebars file that will display the burger names in a list, based on the devoured boolean value. 
 
 ![handlebars code](https://github.com/Krieffer21/Krieffer_Handlebars/blob/master/public/assets/screenshots/index.png)
