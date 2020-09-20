@@ -21,7 +21,6 @@ ul {
     font-weight: bold;
   }
         
-
   h1 {
     color: #E36414;
   margin: 20px; 
@@ -30,24 +29,11 @@ ul {
   text-decoration-line: underline;
   }
 
-  /* .create-form {
-    margin: 10px;
-    text-align: center;
-
-  } */
   .newB {
     margin: 10px;
     text-align: center;
-
   }
 
-  /* .eat {
-
-  }
-
-  .eaten {
-  }
- */
   .burgers {
     background-color: #4a4a4ab6;
     padding: 10px;
@@ -84,5 +70,4 @@ ul {
   .change-devoured:hover {
     background-color: #E36414;
     font-weight: 400;
-
   }
