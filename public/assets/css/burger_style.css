@@ -19,9 +19,11 @@ ul {
         
 
   h1 {
+    color: #E36414;
   margin: 20px; 
   padding: 10px;
   text-align: center;
+  text-decoration-line: underline;
   }
 
   .create-form {
@@ -29,21 +31,24 @@ ul {
     text-align: center;
 
   }
+  .newB {
+    margin: 10px;
+  }
 
-  .eat {
+  /* .eat {
 
   }
 
   .eaten {
   }
-
+ */
   .burgers {
     background-color: #4a4a4ab6;
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     text-align: center;
-    margin-top: 40px;
     border-style: double;
+    align-content: center;
 
   }
 
@@ -68,7 +73,6 @@ ul {
     align-self: center;
     border-radius: 10px;
     font-weight: 200;
-
   }
 
   .change-devoured:hover {
