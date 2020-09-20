@@ -8,6 +8,10 @@
   color: #ffffff;
 }
 
+.container {
+  align-content: center;
+}
+
 ul {
     padding: 5px;
     margin: 5px;
@@ -26,13 +30,15 @@ ul {
   text-decoration-line: underline;
   }
 
-  .create-form {
+  /* .create-form {
     margin: 10px;
     text-align: center;
 
-  }
+  } */
   .newB {
     margin: 10px;
+    text-align: center;
+
   }
 
   /* .eat {
