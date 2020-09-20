@@ -4,13 +4,11 @@
   background-size: cover;
   height: 100vh;
   overflow: hidden;
-
 }
 
-li {
+ul {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
   }
   
   .label {
@@ -37,21 +35,24 @@ li {
     margin: 10px;
     padding: 20px;
     text-align: center;
-    float: left;
     margin-top: 40px;
   }
 
   .eaten {
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-    float: right;
-    margin-top: 40px;
-
+    background-color: #4a4a4ab6;
+    padding: 10px;
   }
 
   .add {
+    background-color: #000000;
+    color: #ffffff;
     margin: 5px;
     padding: 5px;
     align-self: center;
+    border-radius: 10px;
+  }
+
+  .add:hover {
+    background-color: #595959;
+
   }

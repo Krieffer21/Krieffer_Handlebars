@@ -1,29 +1,5 @@
 <h1>Eat da Burger!</h1>
 
-<div class="burgers">
-  <h2>Burgers to eat!</h2>
-  <ul>
-    {{#each burgers}}
-    {{#unless devoured}}
-    {{> burgers/burger devoured=true}}
-    {{/unless}}
-    {{/each}}
-  </ul>
-</div>
-
-<div class="eaten">
-  <h2>Burgers that have been devoured!</h2>
-  <ul>
-    {{#each burgers}}
-    {{#if devoured}}
-    <li>
-      {{burger_name}}
-    </li>
-    {{/if}}
-    {{/each}}
-  </ul>
-</div>
-
 <div class="conatiner">
   <div class="row">
     <form class="create-form">
@@ -36,3 +12,43 @@
     </form>
   </div>
 </div>
+
+<div class="conatiner">
+  <div class="row">
+    <div class="col-md-4 col-sm-12">
+
+      <div class="burgers">
+        <h2>Burgers to eat!</h2>
+        <ul>
+          {{#each burgers}}
+          {{#unless devoured}}
+          {{> burgers/burger devoured=true}}
+          {{/unless}}
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div >
+  <div class="conatiner">
+    <div class="row eaten">
+      <div class="col-md-4 col-sm-12">
+
+        <h2>Burgers that have been devoured!</h2>
+        <ul>
+          {{#each burgers}}
+          {{#if devoured}}
+          <ul>
+            {{burger_name}}
+          </ul>
+          {{/if}}
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
