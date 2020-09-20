@@ -1,9 +1,11 @@
+
 .bgimg {
   background-image: url(/assets/css/bgImg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   overflow: hidden;
+  color: #ffffff;
 }
 
 ul {
@@ -15,9 +17,6 @@ ul {
     font-weight: bold;
   }
         
-  body {
-    color: #ffffff;
-    }
 
   h1 {
   margin: 20px; 
@@ -31,20 +30,29 @@ ul {
 
   }
 
-  .burgers {
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-    margin-top: 40px;
+  .eat {
+
   }
 
   .eaten {
+  }
+
+  .burgers {
     background-color: #4a4a4ab6;
     padding: 10px;
+    margin: 10px;
+    text-align: center;
+    margin-top: 40px;
+    border-style: double;
+
+  }
+
+  .item {
+    margin: 10px;
   }
 
   .add {
-    background-color: #000000;
+    background-color: #E36414;
     color: #ffffff;
     margin: 5px;
     padding: 5px;
@@ -52,7 +60,19 @@ ul {
     border-radius: 10px;
   }
 
-  .add:hover {
-    background-color: #595959;
+  .change-devoured {
+    background-color: #f48846;
+    color: #ffffff;
+    margin: 5px;
+    padding: 5px;
+    align-self: center;
+    border-radius: 10px;
+    font-weight: 200;
+
+  }
+
+  .change-devoured:hover {
+    background-color: #E36414;
+    font-weight: 400;
 
   }

@@ -18,9 +18,9 @@
   <div class="container">
     <div class="row ">
 
-        <div class="col  burgers">
+        <div class="col eat burgers">
           <h2>Burgers to eat!</h2>
-          <ul>
+          <ul class="item">
             {{#each burgers}}
             {{#unless devoured}}
             {{> burgers/burger devoured=true}}
@@ -28,9 +28,9 @@
             {{/each}}
           </ul>
         </div>
-        <div class="col  eaten">
+        <div class="col eaten burgers">
           <h2>Burgers that have been devoured!</h2>
-          <ul>
+          <ul class="item">
             {{#each burgers}}
             {{#if devoured}}
             <ul>
