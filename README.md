@@ -26,3 +26,9 @@
   The gif below shows the functionality of the burger application. This is the link to the deployed app, https://shielded-bayou-55697.herokuapp.com/ . As you can see in the gif below when a burger name is entered it appears in the list of burgers ready to be devoured. When the 'Devour it!' button is clicked the burger name now appears in the list of burgers that have been devoured.  
 
 ![gif](https://github.com/Krieffer21/Krieffer_Handlebars/blob/master/public/assets/screenshots/burger.gif)
+
+
+### Updated view of the application
+  Since completing the bootcamp I have revised the visual aspect of this application. Below is an image of what the updated application looks like.
+  
+  ![](https://github.com/Krieffer21/Krieffer_Handlebars/blob/master/public/assets/screenshots/update.png)
