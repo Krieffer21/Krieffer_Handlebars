@@ -1,48 +1,73 @@
-li {
+
+.bgimg {
+  background-image: url(/assets/css/bgImg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.container {
+  align-content: center;
+}
+
+ul {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
   }
   
   .label {
     font-weight: bold;
   }
         
-  body {
-    background-color: bisque;
-  }
-
   h1 {
+    color: #E36414;
   margin: 20px; 
   padding: 10px;
   text-align: center;
+  text-decoration-line: underline;
   }
 
-  .create-form {
+  .newB {
     margin: 10px;
     text-align: center;
-
   }
 
   .burgers {
-    margin: 10px;
-    padding: 20px;
+    background-color: #4a4a4ab6;
+    padding: 10px;
+    margin: 20px;
     text-align: center;
-    float: left;
-    margin-top: 40px;
+    border-style: double;
+    align-content: center;
+
   }
 
-  .eaten {
+  .item {
     margin: 10px;
-    padding: 20px;
-    text-align: center;
-    float: right;
-    margin-top: 40px;
-
   }
 
   .add {
+    background-color: #E36414;
+    color: #ffffff;
     margin: 5px;
     padding: 5px;
     align-self: center;
+    border-radius: 10px;
+  }
+
+  .change-devoured {
+    background-color: #f48846;
+    color: #ffffff;
+    margin: 5px;
+    padding: 5px;
+    align-self: center;
+    border-radius: 10px;
+    font-weight: 200;
+  }
+
+  .change-devoured:hover {
+    background-color: #E36414;
+    font-weight: 400;
   }
